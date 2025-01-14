@@ -1,0 +1,53 @@
+/* 
+
+@media (condicion){
+
+}
+
+*/
+
+@media screen and (min-width: 1200px){
+    .boton {
+        width: 220px;
+        height: auto;
+        padding: 20px;
+        color: white;
+        background-color: blueviolet;
+        border: 0;
+        box-shadow: -1px 2px 5px #ccc;
+        text-transform: uppercase;
+    }
+}
+
+@media all and (min-width: 980px) and (max-width: 1199px){
+    .boton {
+        width: 220px;
+        height: auto;
+        padding: 20px;
+        color: white;
+        background-color: brown;
+        border: 0;
+        box-shadow: -1px 2px 5px #ccc;
+        text-transform: uppercase;
+    }
+}
+
+@media all and (min-width: 680px) and (max-width: 979px){
+    .boton {
+        width: 220px;
+        height: auto;
+        padding: 20px;
+        color: white;
+        background-color: palevioletred;
+        border: 0;
+        box-shadow: -1px 2px 5px #ccc;
+        text-transform: uppercase;
+    }
+}
+
+@media print {
+    .boton {
+        display: none;
+    }
+}
+

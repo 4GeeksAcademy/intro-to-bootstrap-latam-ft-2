@@ -1,0 +1,26 @@
+.dropdown .dropdown-menu {
+  background-color: blueviolet;
+  color: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+  background-color: blueviolet;
+  color: white;
+}
+
+.bg-custom {
+  background-color: #2fa6ae;
+} 
+
+
+.bg-custom {
+  color: #1ac653;
+}
+
+/* .carousel-control-next-icon {
+  color: black !important;
+} */
+
+.carousel .carousel-control-next {
+  background-color: #2fa6ae33;
+}
